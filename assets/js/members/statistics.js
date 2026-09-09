@@ -2,7 +2,10 @@
 export function calculateMemberStats(data) {
   const alumni = data.alumni || [];
   const studying = data.studying || [];
+  const allMembers = [...alumni, ...studying];
   return {
+    totalMaster: allMembers.filter((member) => member.degree === "master").length,
+    totalDoctor: allMembers.filter((member) => member.degree === "doctor").length,
     alumniMaster: alumni.filter((member) => member.degree === "master").length,
     alumniDoctor: alumni.filter((member) => member.degree === "doctor").length,
     currentDoctor: studying.filter((member) => member.degree === "doctor").length,

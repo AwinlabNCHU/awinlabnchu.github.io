@@ -1,4 +1,4 @@
-import { headerToggle } from "./header.js";
+import { headerToggle } from "./header.js?v=3.0.1";
 
 // Common utilities used across pages
 export function initPreloader() {

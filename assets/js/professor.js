@@ -11,8 +11,8 @@ import {
   initScrollTop,
   initAOS,
   initHashScroll,
-} from "./common/utils.js";
-import { initHeader } from "./common/header.js";
+} from "./common/utils.js?v=3.0.1";
+import { initHeader } from "./common/header.js?v=3.0.1";
 
 // Bootstrap manages this page's navbar; publications have their own module.
 document.addEventListener("DOMContentLoaded", () => {
