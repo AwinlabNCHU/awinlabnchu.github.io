@@ -14,8 +14,8 @@ import {
   initNavMenu,
   initNavMenuScrollspy,
   initHashScroll,
-} from "./common/utils.js?v=3.0.2-preview.1";
-import { initHeader, initHeaderToggle } from "./common/header.js?v=3.0.2-preview.1";
+} from "./common/utils.js?v=3.2.0-preview.1";
+import { initHeader, initHeaderToggle } from "./common/header.js?v=3.2.0-preview.1";
 
 // Register each behavior once; member layout is managed by CSS Grid.
 document.addEventListener("DOMContentLoaded", () => {

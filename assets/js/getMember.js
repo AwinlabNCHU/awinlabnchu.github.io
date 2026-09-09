@@ -1,13 +1,13 @@
-import { calculateMemberStats, animateCount } from "./members/statistics.js?v=3.0.2-preview.1";
-import { createMemberCard } from "./members/cardCreator.js?v=3.0.2-preview.1";
-import { renderPaginationButtons } from "./members/pagination.js?v=3.0.2-preview.1";
+import { calculateMemberStats, animateCount } from "./members/statistics.js?v=3.2.0-preview.1";
+import { createMemberCard } from "./members/cardCreator.js?v=3.2.0-preview.1";
+import { renderPaginationButtons } from "./members/pagination.js?v=3.2.0-preview.1";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("members-container");
   if (!container) return;
 
   try {
-    const response = await fetch("assets/data/lab_members.json?v=3.0.2-preview.1");
+    const response = await fetch("assets/data/lab_members.json?v=3.2.0-preview.1");
     if (!response.ok) throw new Error("Member data: HTTP " + response.status);
     const data = await response.json();
     const stats = calculateMemberStats(data);
