@@ -24,8 +24,6 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
   <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet" />
@@ -201,24 +199,24 @@
       <div class="container section-title" data-aos="fade-up">
         <div class="content justify-content-center pb-3">
           <h2>Members</h2>
-          <p>迄今已培育 <span class="highlight-number" id="total-phd-text"> 3 </span> 位博士生、<span class="highlight-number"
-              id="total-alumni-text">0</span> 位碩士生，皆學有所成。</p>
+          <p>依本站成員名單，已有 <span class="highlight-number" data-member-count="alumniDoctor">—</span> 位博士、<span class="highlight-number"
+              data-member-count="alumniMaster">—</span> 位碩士畢業。</p>
         </div>
 
         <div class="container">
-          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="members-layout">
 
-            <ul class="member-filters isotope-filters mb-2" data-aos="fade-up" data-aos-delay="200">
-              <li data-filter="*">All</li>
-              <li data-filter=".filter-studying" class="filter-active">Current</li>
-              <li data-filter=".filter-alumni">Alumni</li>
-              <li data-filter=".filter-doctor">PHD</li>
+            <ul class="member-filters mb-2" aria-label="Member filters" data-aos="fade-up" data-aos-delay="200">
+              <li><button type="button" data-filter="*" aria-pressed="false">All</button></li>
+              <li><button type="button" data-filter=".filter-studying" class="filter-active" aria-pressed="true">Current</button></li>
+              <li><button type="button" data-filter=".filter-alumni" aria-pressed="false">Alumni</button></li>
+              <li><button type="button" data-filter=".filter-doctor" aria-pressed="false">PhD</button></li>
             </ul>
             <!-- End member Filters -->
             <div id="pagination" class="col-12 text-center"></div>
 
-            <div class="row gy-4 isotope-container mt-2" data-aos="fade-up" data-aos-delay="300">
-              <div id="members-container" class="col d-flex justify-content-center"></div>
+            <div class="mt-2" data-aos="fade-up" data-aos-delay="300">
+              <div id="members-container" class="members-grid">正在載入成員資料…</div>
               <!-- The actual member items will be injected here -->
               <script type="module" src="assets/js/getMember.js"></script>
             </div>
@@ -239,7 +237,7 @@
           <h2>How to join us?</h2>
           <p class="mb-2">
             同學你好，我是陳煥老師。今年我將指導五位碩士班新生，歡迎你們加入！我的專長可參考<a href="professor.html">這裡</a>。
-            <br>目前實驗室有 1 位博士生、6 位碩二生、7 位碩一生，大家將互相學習、共同成長。
+            <br>依本站成員名單，目前實驗室有 <span data-member-count="currentDoctor">—</span> 位博士生、<span data-member-count="currentMaster2">—</span> 位碩二生、<span data-member-count="currentMaster1">—</span> 位碩一生，大家將互相學習、共同成長。
           </p>
 
           <div class="container p-2">
@@ -247,7 +245,7 @@
             <p>
               本實驗室名為 <strong>前瞻無線資訊網路實驗室</strong> (Advanced Wireless Information Networks)，
               成立於 2003 年 2 月。
-              <br>最初 9 年(2003.2-2012.2) 於中正大學電機系網路組，自 2012 年 2 月起轉至中興大學資工系。迄今已培育 5 位博士生、超過 90 位碩士生，皆學有所成。
+              <br>最初 9 年(2003.2-2012.2) 於中正大學電機系網路組，自 2012 年 2 月起轉至中興大學資工系。依本站成員名單，已有 <span data-member-count="alumniDoctor">—</span> 位博士、<span data-member-count="alumniMaster">—</span> 位碩士畢業。
             </p>
           </div>
 
@@ -274,7 +272,7 @@
               </div>
               <div class="flex-grow-1">
                 <h4 class="title">
-                  <a href="javascript:void(0)" class="stretched-link" style="cursor: default;">深度強化學習與無線網路最佳化</a>
+                  深度強化學習與無線網路最佳化
                 </h4>
                 <p class="description">
                   運用 DRL 與啟發式演算法，探討 WSN 及 6G 網路中的存取控制、壽命最佳化與資源排程等關鍵問題。
@@ -289,7 +287,7 @@
               </div>
               <div class="flex-grow-1">
                 <h4 class="title">
-                  <a href="javascript:void(0)" class="stretched-link" style="cursor: default;">生醫訊號與醫學影像分析</a>
+                  生醫訊號與醫學影像分析
                 </h4>
                 <p class="description">
                   結合深度學習進行 ECG 心電訊號去噪與異常偵測，以及醫學影像的辨識與分類研究。
@@ -304,7 +302,7 @@
               </div>
               <div class="flex-grow-1">
                 <h4 class="title">
-                  <a href="javascript:void(0)" class="stretched-link" style="cursor: default;">智慧家庭與 IoT 應用</a>
+                  智慧家庭與 IoT 應用
                 </h4>
                 <p class="description">運用 NILM 技術識別家電用電行為，結合 AMI 智慧電網與 IoT 感測，實現家庭節能管理。</p>
               </div>
@@ -448,15 +446,8 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script type="module" src="assets/js/main.js"></script>

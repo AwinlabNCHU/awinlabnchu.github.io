@@ -23,6 +23,8 @@ export function renderPaginationButtons(totalPages, currentPage, onPageChange) {
   prevLi.className = `page-item ${currentPage === 1 ? "disabled" : ""}`;
   const prevBtn = document.createElement("button");
   prevBtn.className = "page-link";
+  prevBtn.type = "button";
+  prevBtn.disabled = currentPage === 1;
   prevBtn.innerHTML = "&laquo; Prev";
   prevBtn.addEventListener("click", () => onPageChange(currentPage - 1));
   prevLi.appendChild(prevBtn);
@@ -104,6 +106,8 @@ export function renderPaginationButtons(totalPages, currentPage, onPageChange) {
   }`;
   const nextBtn = document.createElement("button");
   nextBtn.className = "page-link";
+  nextBtn.type = "button";
+  nextBtn.disabled = currentPage === totalPages;
   nextBtn.innerHTML = "Next &raquo;";
   nextBtn.addEventListener("click", () => onPageChange(currentPage + 1));
   nextLi.appendChild(nextBtn);

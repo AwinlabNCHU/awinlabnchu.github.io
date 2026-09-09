@@ -1,25 +1,13 @@
 // Member statistics functionality
 export function calculateMemberStats(data) {
-  // Get total members count
-  const totalMembers = Object.values(data).reduce(
-    (sum, category) => sum + category.length,
-    0
-  );
-
-  // Get alumni count (from the alumni category)
-  const alumniCount = data.alumni ? data.alumni.length : 0;
-
-  // Count PhD students by checking degree property
-  const phdCount = Object.values(data).reduce((count, members) => {
-    return (
-      count + members.filter((member) => member.degree === "doctor").length
-    );
-  }, 0);
-
+  const alumni = data.alumni || [];
+  const studying = data.studying || [];
   return {
-    totalMembers,
-    alumniCount,
-    phdCount,
+    alumniMaster: alumni.filter((member) => member.degree === "master").length,
+    alumniDoctor: alumni.filter((member) => member.degree === "doctor").length,
+    currentDoctor: studying.filter((member) => member.degree === "doctor").length,
+    currentMaster1: studying.filter((member) => member.degree === "master" && member.title === "碩一").length,
+    currentMaster2: studying.filter((member) => member.degree === "master" && member.title === "碩二").length,
   };
 }
 
