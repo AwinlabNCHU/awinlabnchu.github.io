@@ -25,7 +25,7 @@ export function createMemberCard(member, category) {
   const avatar = "https://ui-avatars.com/api/?name=" + encodeURIComponent(member.name)
     + "&background=ffff&rounded=true&size=200";
   const keywords = (member.keyword || [])
-    .map((keyword) => '#' + escapeHtml(keyword))
+    .map((keyword) => '<span class="badge bg-secondary me-1">#' + escapeHtml(keyword) + '</span>')
     .join(" ");
   for (const field of ["name", "grade", "title", "description", "img", "email", "SocialLink", "GithubLink", "blinks", "thesis"]) {
     member[field] = escapeHtml(member[field]);
