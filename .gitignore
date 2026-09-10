@@ -1,5 +1,11 @@
+# Local maintenance notes
+/docs/
+
 Archived/
 *~
+
+# Local form export; publish only the reviewed website member fields.
+/實驗室網站成員資訊調查-115年.csv
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*

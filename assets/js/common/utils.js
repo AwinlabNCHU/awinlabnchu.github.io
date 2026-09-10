@@ -1,3 +1,5 @@
+import { headerToggle } from "./header.js?v=2.1";
+
 // Common utilities used across pages
 export function initPreloader() {
   const preloader = document.querySelector("#preloader");
@@ -19,7 +21,7 @@ export function initScrollTop() {
     }
   }
 
-  scrollTop.addEventListener("click", (e) => {
+  scrollTop?.addEventListener("click", (e) => {
     e.preventDefault();
     window.scrollTo({
       top: 0,
@@ -59,7 +61,7 @@ export function initNavMenu() {
   // Hide mobile nav on same-page/hash links
   document.querySelectorAll("#navmenu a").forEach((navmenu) => {
     navmenu.addEventListener("click", () => {
-      if (document.querySelector(".header-show")) {
+      if (document.querySelector("#header.header-show")) {
         headerToggle();
       }
     });
@@ -69,8 +71,9 @@ export function initNavMenu() {
   document.querySelectorAll(".navmenu .toggle-dropdown").forEach((navmenu) => {
     navmenu.addEventListener("click", function (e) {
       e.preventDefault();
-      this.parentNode.classList.toggle("active");
-      this.parentNode.nextElementSibling.classList.toggle("dropdown-active");
+      const link = this.closest("a");
+      link.classList.toggle("active");
+      link.nextElementSibling?.classList.toggle("dropdown-active");
       e.stopImmediatePropagation();
     });
   });

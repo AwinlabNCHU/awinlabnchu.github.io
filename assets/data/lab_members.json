@@ -11,110 +11,16 @@
       "GithubLink": "https://github.com/keoinn",
       "SocialLink": "keoinn",
       "blinks": "https://keoinn.github.io/",
-      "keyword": ["AI_APP_Design", "Metaheuristic", "WSNs"],
+      "keyword": [
+        "AI_APP_Design",
+        "Metaheuristic",
+        "WSNs"
+      ],
       "description": "目前任職於新創公司擔任RD，同時也興大創產學院擔任講師，教授軟工、協作、雲端軟體開發。"
     },
     {
-      "name": "劉冠伯",
-      "title": "碩二",
-      "degree": "master",
-      "grade": 113,
-      "thesis": "",
-      "img": "assets/img/member/113劉冠伯.png",
-      "email": "g113056116@smail.nchu.edu.tw",
-      "GithubLink": "https://github.com/waterbear-tw",
-      "SocialLink": "https://www.linkedin.com/in/aidenliu",
-      "blinks": "",
-      "keyword": [],
-      "description": "Engaged in reinforcement learning and resource allocation control in 6G networks."
-    },
-    {
-      "name": "蔡詳羿",
-      "title": "碩二",
-      "degree": "master",
-      "grade": "113",
-      "thesis": "",
-      "img": "assets/img/member/113蔡詳羿.png",
-      "email": "g113056077@smail.nchu.edu.tw",
-      "GithubLink": "https://github.com/devilhyt",
-      "SocialLink": "",
-      "blinks": "https://devilhyt.github.io",
-      "keyword": ["ECG", "Mamba", "SSM"],
-      "description": ""
-    },
-    {
-      "name": "吳偉政",
-      "title": "碩二",
-      "degree": "master",
-      "grade": "113",
-      "thesis": "",
-      "img": "assets/img/member/113吳偉政.png",
-      "email": "",
-      "GithubLink": "",
-      "SocialLink": "",
-      "blinks": "",
-      "keyword": [],
-      "description": ""
-    },
-    {
-      "name": "吳楚熙",
-      "title": "碩二",
-      "degree": "master",
-      "grade": 113,
-      "thesis": "",
-      "img": "assets/img/member/113吳楚熙.png",
-      "email": "alsk789789@gmail.com",
-      "GithubLink": "",
-      "SocialLink": "",
-      "blinks": "",
-      "keyword": [],
-      "description": ""
-    },
-    {
-      "name": "楊啟弘",
-      "title": "碩二",
-      "degree": "master",
-      "grade": 113,
-      "thesis": "",
-      "img": "assets/img/member/113楊啟弘.png",
-      "email": "young900221@gmail.com",
-      "GithubLink": "https://github.com/YANGCHIHUNG",
-      "SocialLink": "www.linkedin.com/in/yangchihung",
-      "blinks": "",
-      "keyword": ["RL", "Knowledge distillation"],
-      "description": "研究強化式學習與知識蒸餾的整合應用，同時學習嵌入式系統並應用，測試模型效能。"
-    },
-    {
-      "name": "簡紹鈞",
-      "title": "碩二",
-      "degree": "master",
-      "grade": 113,
-      "thesis": "",
-      "img": "assets/img/member/113簡紹鈞.png",
-      "email": "chienshaochun0421@gmail.com",
-      "GithubLink": "https://github.com/chienshaochun/",
-      "SocialLink": "",
-      "blinks": "",
-      "keyword": ["NILM", "LA"],
-      "description": "目前在做diffusion model在NILM上模擬數據配合federated learning的研究"
-    },
-    {
-      "name": "陳信宇",
-      "title": "碩二",
-      "degree": "master",
-      "grade": 113,
-      "thesis": "",
-      "img": "assets/img/member/113陳信宇.png",
-      "email": "andy0413@hotmail.com.tw",
-      "GithubLink": "",
-      "SocialLink": "",
-      "blinks": "",
-      "keyword": ["wsn"],
-      "description": ""
-    },
-    {
       "name": "李宗諺",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
@@ -128,7 +34,7 @@
     },
     {
       "name": "尤敏心",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
@@ -142,7 +48,7 @@
     },
     {
       "name": "潘柏叡",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
@@ -151,12 +57,15 @@
       "GithubLink": "https://github.com/awrdrfs",
       "SocialLink": "",
       "blinks": "",
-      "keyword": ["Convolution", "Model Compression"],
-      "description": "修課、修課，還是修課。試圖讓碩二專心寫paper"
+      "keyword": [
+        "Convolution",
+        "Model Compression"
+      ],
+      "description": ""
     },
     {
       "name": "朱仕凱",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
@@ -170,7 +79,7 @@
     },
     {
       "name": "陳致瑋",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
@@ -184,7 +93,7 @@
     },
     {
       "name": "呂凱達",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
@@ -193,17 +102,93 @@
       "GithubLink": "",
       "SocialLink": "",
       "blinks": "",
-      "keyword": ["WSN", "Algorithm"],
+      "keyword": [
+        "WSN",
+        "Algorithm"
+      ],
       "description": ""
     },
     {
       "name": "詹凱宇",
-      "title": "碩一",
+      "title": "碩二",
       "degree": "master",
       "grade": "114",
       "thesis": "",
       "img": "",
       "email": "",
+      "GithubLink": "https://github.com/g114056175",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [],
+      "description": ""
+    },
+    {
+      "name": "林浚偉",
+      "title": "碩一",
+      "degree": "master",
+      "grade": 115,
+      "thesis": "",
+      "img": "assets/img/member/115林浚偉.jpg",
+      "email": "aaazzz08094499999@gmail.com",
+      "GithubLink": "",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [
+        "biomedical informatics",
+        "data mining"
+      ],
+      "description": "碩一，努力修課，大學期間研究生醫資訊與資料探勘相關領域"
+    },
+    {
+      "name": "黃翊豪",
+      "title": "碩一",
+      "degree": "master",
+      "grade": 115,
+      "thesis": "",
+      "img": "assets/img/member/115黃翊豪.jpg",
+      "email": "howie0715@gmail.com",
+      "GithubLink": "https://github.com/Howie0715/",
+      "SocialLink": "",
+      "blinks": "https://iehow.tw/",
+      "keyword": [],
+      "description": ""
+    },
+    {
+      "name": "張皓崴",
+      "title": "碩一",
+      "degree": "master",
+      "grade": 115,
+      "thesis": "",
+      "img": "assets/img/member/115張皓崴.jpg",
+      "email": "Weber333139@gmail.com",
+      "GithubLink": "",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [],
+      "description": ""
+    },
+    {
+      "name": "潘兆邠",
+      "title": "碩一",
+      "degree": "master",
+      "grade": 115,
+      "thesis": "",
+      "img": "assets/img/member/115潘兆邠.jpg",
+      "email": "zhaobin2638@gmail.com",
+      "GithubLink": "",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [],
+      "description": ""
+    },
+    {
+      "name": "邱冠霖",
+      "title": "碩一",
+      "degree": "master",
+      "grade": 115,
+      "thesis": "",
+      "img": "assets/img/member/115邱冠霖.jpg",
+      "email": "xbewhyourself1te@gmail.com",
       "GithubLink": "",
       "SocialLink": "",
       "blinks": "",
@@ -212,6 +197,116 @@
     }
   ],
   "alumni": [
+    {
+      "name": "劉冠伯",
+      "title": "",
+      "degree": "master",
+      "grade": 113,
+      "thesis": "",
+      "img": "assets/img/member/113劉冠伯.png",
+      "email": "g113056116@smail.nchu.edu.tw",
+      "GithubLink": "https://github.com/waterbear-tw",
+      "SocialLink": "https://www.linkedin.com/in/aidenliu",
+      "blinks": "",
+      "keyword": [],
+      "description": "Engaged in reinforcement learning and resource allocation control in 6G networks."
+    },
+    {
+      "name": "蔡詳羿",
+      "title": "",
+      "degree": "master",
+      "grade": "113",
+      "thesis": "",
+      "img": "assets/img/member/113蔡詳羿.png",
+      "email": "g113056077@smail.nchu.edu.tw",
+      "GithubLink": "https://github.com/devilhyt",
+      "SocialLink": "",
+      "blinks": "https://devilhyt.github.io",
+      "keyword": [
+        "ECG",
+        "Mamba",
+        "SSM"
+      ],
+      "description": ""
+    },
+    {
+      "name": "吳偉政",
+      "title": "",
+      "degree": "master",
+      "grade": "113",
+      "thesis": "",
+      "img": "assets/img/member/113吳偉政.png",
+      "email": "",
+      "GithubLink": "",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [],
+      "description": ""
+    },
+    {
+      "name": "吳楚熙",
+      "title": "",
+      "degree": "master",
+      "grade": 113,
+      "thesis": "",
+      "img": "assets/img/member/113吳楚熙.png",
+      "email": "alsk789789@gmail.com",
+      "GithubLink": "",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [],
+      "description": ""
+    },
+    {
+      "name": "楊啟弘",
+      "title": "",
+      "degree": "master",
+      "grade": 113,
+      "thesis": "",
+      "img": "assets/img/member/113楊啟弘.png",
+      "email": "young900221@gmail.com",
+      "GithubLink": "https://github.com/YANGCHIHUNG",
+      "SocialLink": "www.linkedin.com/in/yangchihung",
+      "blinks": "",
+      "keyword": [
+        "RL",
+        "Knowledge distillation"
+      ],
+      "description": "研究強化式學習與知識蒸餾的整合應用，同時學習嵌入式系統並應用，測試模型效能。"
+    },
+    {
+      "name": "簡紹鈞",
+      "title": "",
+      "degree": "master",
+      "grade": 113,
+      "thesis": "",
+      "img": "assets/img/member/113簡紹鈞.png",
+      "email": "chienshaochun0421@gmail.com",
+      "GithubLink": "https://github.com/chienshaochun/",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [
+        "NILM",
+        "LA"
+      ],
+      "description": "目前在做diffusion model在NILM上模擬數據配合federated learning的研究"
+    },
+    {
+      "name": "陳信宇",
+      "title": "",
+      "degree": "master",
+      "grade": 113,
+      "thesis": "",
+      "img": "assets/img/member/113陳信宇.png",
+      "email": "andy0413@hotmail.com.tw",
+      "GithubLink": "",
+      "SocialLink": "",
+      "blinks": "",
+      "keyword": [
+        "wsn"
+      ],
+      "description": ""
+    },
     {
       "name": "郭庭均",
       "title": "鮮速冷鏈科技 經理",
@@ -223,7 +318,11 @@
       "GithubLink": "https://github.com/wuguofish",
       "SocialLink": "https://www.facebook.com/wuguofish",
       "blinks": "",
-      "keyword": ["Web APP", "Android APP", "Data Mining"],
+      "keyword": [
+        "Web APP",
+        "Android APP",
+        "Data Mining"
+      ],
       "description": ""
     },
     {
@@ -1161,7 +1260,10 @@
       "GithubLink": "",
       "SocialLink": "吳允呈",
       "blinks": "",
-      "keyword": ["PointClound", "Transformer"],
+      "keyword": [
+        "PointClound",
+        "Transformer"
+      ],
       "description": "我是吳允呈，awinlab 110學年畢業生，研究領域為點雲配準、啟發式演算法。"
     },
     {
@@ -1413,7 +1515,10 @@
       "GithubLink": "https://github.com/sc0210",
       "SocialLink": "https://www.linkedin.com/in/yu-cheng-chen-460aa1189",
       "blinks": "https://sc0210.netlify.app/",
-      "keyword": ["wsn", "algorithm"],
+      "keyword": [
+        "wsn",
+        "algorithm"
+      ],
       "description": "Focused on developing Metaheuristic algorithm to solve coverage scheduling and routing optimization problem in WSN."
     },
     {
@@ -1441,7 +1546,11 @@
       "GithubLink": "",
       "SocialLink": "",
       "blinks": "",
-      "keyword": ["GreenLearning", "ECG", "ML"],
+      "keyword": [
+        "GreenLearning",
+        "ECG",
+        "ML"
+      ],
       "description": "Focused on researching lightweight image recognition models(Green Learning) and applying them in combination with ECG for practical applications."
     },
     {
@@ -1455,7 +1564,10 @@
       "GithubLink": "",
       "SocialLink": "",
       "blinks": "",
-      "keyword": ["NILM", "FL"],
+      "keyword": [
+        "NILM",
+        "FL"
+      ],
       "description": "Combining federated learning with Bayesian optimization to predict appliance-level energy usage from aggregated power data."
     },
     {
@@ -1483,7 +1595,10 @@
       "GithubLink": "",
       "SocialLink": "",
       "blinks": "",
-      "keyword": ["lidar", "點雲分割"],
+      "keyword": [
+        "lidar",
+        "點雲分割"
+      ],
       "description": ""
     }
   ]
