@@ -1,6 +1,6 @@
-import { createChartManager } from "./publications/chartManager.js?v=3.2.0-preview.1";
-import { createPaginationControls } from "./publications/pagination.js?v=3.2.0-preview.1";
-import { createDisplayManager } from "./publications/displayManager.js?v=3.2.0-preview.1";
+import { createChartManager } from "./publications/chartManager.js?v=2.1";
+import { createPaginationControls } from "./publications/pagination.js?v=2.1";
+import { createDisplayManager } from "./publications/displayManager.js?v=2.1";
 
 document.addEventListener("DOMContentLoaded", function () {
   const filterSelect = document.getElementById("filter-select");
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, ITEMS_PER_PAGE);
   }
 
-  fetch("assets/data/journal_list.json?v=3.2.0-preview.1")
+  fetch("assets/data/journal_list.json?v=2.1")
     .then((response) => response.json())
     .then((data) => {
       const publications = data;
